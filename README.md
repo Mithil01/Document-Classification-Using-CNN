@@ -10,7 +10,7 @@ The goal is to develop a document classifier that can accurately categorize a co
 5. Evaluation Metric.
 6. Data preprocessing.
 7. Model architecture.
-8. Results
+8. Results.
 
 ## 1. ML problem formulation
 - This is a Multi-class classification problem.
