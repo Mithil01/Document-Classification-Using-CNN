@@ -1,6 +1,6 @@
-# Document Classification Using CNN : Leveraging CNN for efficient text categorization.
+# Document Classification Using CNN: Leveraging CNN for efficient text categorization.
 
-The goal is to develop a document classifier that can accurately categorize a collection of 18,828 text documents into one of 20 predefined classes Using Convolution Neural Network. Each document is named in the format 'ClassLabel_DocumentNumberInThatLabel', allowing the extraction of the corresponding label for each document
+The goal is to develop a document classifier that can accurately categorize a collection of 18,828 text documents into one of 20 predefined classes Using Convolution Neural Networks. Each document is named in the format 'ClassLabel_DocumentNumberInThatLabel', allowing the extraction of the corresponding label for each document.
 
 ## Table of Contents
 1. ML problem formulation
@@ -96,5 +96,8 @@ and remove the words which are greater than or equal to 15 or less than or equal
 
 ## 8. Results
 ![Image Alt Text](model_results.jpg)
+- Model_1 has a pretty complex CNN architecture as compared to Model_2. Also, embeddings of preprocessed_texts using glove vectors were provided to Model_1, on the other hand, for Model_2 Chard_embeddings of preprocessed_texts were given.
+- Model_1 has a very large number of trainable parameters as compared to Model_2.
+- The accuracy obtained by Model_1 is better than that of Model_2 with even fewer epochs. Even micro_avg_F1_score of Model_1 > micro_avg_F1_score of Model_2.
 
 
