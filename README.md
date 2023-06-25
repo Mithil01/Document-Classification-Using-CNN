@@ -17,7 +17,7 @@ The goal is to develop a document classifier that can accurately categorize a co
 - At outset, it looks like there is no low latency requirement
 
 ## 2. Downloading dataset
-- Use this link for the dataset https://drive.google.com/open?id=1rxD15nyeIPIAZ-J2VYPrDRZI66-TBWvM
+- Use this link for the [dataset](https://drive.google.com/open?id=1rxD15nyeIPIAZ-J2VYPrDRZI66-TBWvM)
 - Note: the above folder is zipped, so use the below code to extract the files.
 ```python
 !pip install unrar
@@ -89,14 +89,12 @@ and remove the words which are greater than or equal to 15 or less than or equal
 
 ## 7. Model Architecture
 - Model 1 : Word embeddings is based on pretrained Glove vector where each embedding has size 300 dimensions.
+  ![Image Alt Text](model1.jpg)
   
-- Model 2 : **Char CNN (Refer : http://arxiv.org/abs/1509.01626)** char embeddings is based on pretrained char embeddings from https://github.com/minimaxir/char-embeddings/blob/master/glove.840B.300d-char.txt
+- Model 2 : **[Char CNN](http://arxiv.org/abs/1509.01626)** char embeddings is based on pretrained char embeddings from https://github.com/minimaxir/char-embeddings/blob/master/glove.840B.300d-char.txt
+  ![Image Alt Text](model2.jpg)
 
 ## 8. Results
 ![Image Alt Text](model_results.jpg)
 
 
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
