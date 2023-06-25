@@ -91,7 +91,7 @@ and remove the words which are greater than or equal to 15 or less than or equal
 - Model 1 : Word embeddings is based on pretrained Glove vector where each embedding has size 300 dimensions.
   ![Image Alt Text](model1.jpg)
   
-- Model 2 : **[Char CNN](http://arxiv.org/abs/1509.01626)** char embeddings is based on pretrained char embeddings from https://github.com/minimaxir/char-embeddings/blob/master/glove.840B.300d-char.txt
+- Model 2 : **[Char CNN](http://arxiv.org/abs/1509.01626)** char embeddings is based on pretrained char embeddings from [here] (https://github.com/minimaxir/char-embeddings/blob/master/glove.840B.300d-char.txt)
   ![Image Alt Text](model2.jpg)
 
 ## 8. Results
