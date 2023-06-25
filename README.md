@@ -88,11 +88,11 @@ and remove the words which are greater than or equal to 15 or less than or equal
 
 
 ## 7. Model Architecture
-- Model 1 : Word embeddings is based on pretrained Glove vector where each embedding has size 300 dimensions.
-  ![Image Alt Text](model1.jpg)
+- Model 1: Word embeddings are based on pre-trained Glove vector where each embedding has size of 300 dimensions.
+  ![Image Alt Text](model1.png)
   
-- Model 2 : **[Char CNN](http://arxiv.org/abs/1509.01626)** char embeddings is based on pretrained char embeddings from [here] (https://github.com/minimaxir/char-embeddings/blob/master/glove.840B.300d-char.txt)
-  ![Image Alt Text](model2.jpg)
+- Model 2: **[Char CNN](http://arxiv.org/abs/1509.01626)** char embeddings are based on pre-trained char embeddings from [here](https://github.com/minimaxir/char-embeddings/blob/master/glove.840B.300d-char.txt)
+  ![Image Alt Text](model2.png)
 
 ## 8. Results
 ![Image Alt Text](model_results.jpg)
